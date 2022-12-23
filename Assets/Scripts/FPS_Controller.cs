@@ -87,6 +87,10 @@ public class FPS_Controller : MonoBehaviour
             {
                 jumpDirection.y = jumpHeight;
             }
+            else
+            {
+                jumpDirection.y = -1;
+            }
         }
         else
         {
