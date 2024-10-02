@@ -38,7 +38,7 @@ public class FPS_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Assign refs
+        // Assign references
         characterController = gameObject.AddComponent<CharacterController>();
         mainCamera = Camera.main.transform;
         // Setup Char
